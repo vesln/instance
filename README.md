@@ -5,7 +5,19 @@
 
 # instance
 
-## Description
+## Usage
+
+```js
+var instance = require('instance');
+var obj = {};
+function Klass(){}
+global.other = {};
+
+instance(obj) === obj; // already an instance
+instance(klass).constructor.name === 'Klass'
+instance('other') === instance(global.other);
+instance('something') === instance(require('something'))
+```
 
 ## Installation
 
