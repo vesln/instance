@@ -13,7 +13,7 @@ function Klass(){}
 global.other = {};
 
 instance(obj) === obj; // already an instance
-instance(klass).constructor.name === 'Klass'
+instance(Klass).constructor.name === 'Klass'
 instance('other') === instance(global.other);
 instance('something') === instance(require('something'))
 ```
