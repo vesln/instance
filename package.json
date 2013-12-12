@@ -5,9 +5,8 @@
   "main": "./index.js",
   "homepage": "https://github.com/vesln/instance",
   "scripts": {
-    "test": "mocha test/*.js",
-    "coverage": "istanbul cover ./node_modules/.bin/_mocha test/*.js",
-    "coveralls": "istanbul cover ./node_modules/.bin/_mocha test/*.js --report lcovonly && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+    "test": "make test",
+    "coverage": "make coverage"
   },
   "repository": {
     "type": "git",
@@ -17,6 +16,12 @@
     "mocha": "~1.13.0",
     "chai": "~1.8.1",
     "coveralls": "~2.3.0",
+    "component": "~0.18.0",
+    "karma-chrome-launcher": "~0.1.1",
+    "karma-firefox-launcher": "~0.1.2",
+    "karma-phantomjs-launcher": "~0.1.1",
+    "karma": "~0.10.8",
+    "karma-mocha": "~0.1.1",
     "istanbul": "~0.1.44"
   },
   "author": "Veselin Todorov <hi@vesln.com>",

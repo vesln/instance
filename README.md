@@ -5,28 +5,54 @@
 
 # instance
 
-## Synopsis
-
 ## Description
 
 ## Installation
 
+#### npm:
+
 ```bash
 npm install instance
+```
+
+#### component:
+
+```bash
+component install vesln/instance
+```
+
+#### standalone:
+
+```bash
+<script src="instance"></script>
 ```
 
 ## Tests
 
 ### Running the tests
 
+All:
+
 ```bash
-$ npm test
+$ make test
+```
+
+Node:
+
+```bash
+$ make test-node
+```
+
+Browser:
+
+```bash
+$ make test-browser
 ```
 
 ### Test coverage
 
 ```bash
-$ npm run-script coverage
+$ npm run coverage
 ```
 
 ## License
