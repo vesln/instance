@@ -1,7 +1,6 @@
 [![NPM version](https://badge.fury.io/js/instance.png)](http://badge.fury.io/js/instance)
 [![Build Status](https://secure.travis-ci.org/vesln/instance.png)](http://travis-ci.org/vesln/instance)
 [![Coverage Status](https://coveralls.io/repos/vesln/instance/badge.png?branch=master)](https://coveralls.io/r/vesln/instance?branch=master)
-[![Code Climate](https://codeclimate.com/github/vesln/instance.png)](https://codeclimate.com/github/vesln/instance)
 
 # instance
 
